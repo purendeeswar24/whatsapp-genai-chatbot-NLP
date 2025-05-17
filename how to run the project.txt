@@ -1,0 +1,15 @@
+1) first create a folder in c drive with name ngrok. Copy the exe file into that c folder and add the path "C:/ngrok" to system variable and set the path.
+2) https://dashboard.ngrok.com/signup (Sign up to the ngrok)
+3) https://dashboard.ngrok.com/get-started/your-authtoken (Get your Authentication token)
+4) now in windows powershell run the command
+ngrok config add-authtoken <your_auth_token>
+5)Setup your twilio account and get your s_id and auth_token and the twilio number
+
+
+6) Also get your api key from gemini
+7) Add these variables to the .env file in vscode
+8) Install all the requirements  from req.txt
+9) Run the flask file with "flask run" command
+10) Now take a new terminal and run command "ngrok http 5000" or ".\ngrok http 5000"
+11) copy the forward url shown in the execution and add it to the twilio console whatsapp sandbox settings in the when message comes in session with "/webhook" extension near post. Click save
+12) now send a message in whatsapp to twilio number and get the response from the locall web app
