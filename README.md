@@ -1,5 +1,3 @@
-Here's a revamped, more attractive, and professional version of your README file for the **WhatsApp AI Chatbot** project. I've added vibrant emojis, improved formatting, and a polished tone to make it engaging while keeping the content concise and clear.
-
 ---
 
 <div align="center">
